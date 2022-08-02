@@ -1,5 +1,5 @@
 package com.capegemini.javaintro;
-
+//program to get integer input from user
 import java.util.Scanner;
 
 public class IntegerRuntimeInput {
@@ -13,3 +13,10 @@ public class IntegerRuntimeInput {
 	}
 
 }
+
+
+/*output-
+  Enter value of x 
+33
+33
+ */

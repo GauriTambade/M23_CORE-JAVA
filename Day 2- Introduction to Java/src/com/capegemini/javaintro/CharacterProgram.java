@@ -16,3 +16,16 @@ public class CharacterProgram {
 	}
 
 }
+
+
+/*output 1
+Enter value of x 
+gauri
+The character is : g  */
+
+/*output 2
+ * Enter value of x 
+gauri tambade
+The character is : g
+*/
+ 
