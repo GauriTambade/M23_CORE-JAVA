@@ -1,4 +1,4 @@
-package com.capegemini.javaintro;
+package com.capgemini.javaintro;
 
 public class ByteProgram {
 

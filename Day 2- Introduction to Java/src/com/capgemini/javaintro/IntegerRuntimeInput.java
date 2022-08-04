@@ -1,4 +1,4 @@
-package com.capegemini.javaintro;
+package com.capgemini.javaintro;
 //program to get integer input from user
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.capegemini.javaintro;
+package com.capgemini.javaintro;
 ///program to get float input from user
 
 import java.util.Scanner;

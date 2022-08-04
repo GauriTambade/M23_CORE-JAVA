@@ -1,4 +1,4 @@
-package com.capegemini.javaintro;
+package com.capgemini.javaintro;
 //program on integer datatype -compile time input
 public class IntegerCompileTimeInput {
 
