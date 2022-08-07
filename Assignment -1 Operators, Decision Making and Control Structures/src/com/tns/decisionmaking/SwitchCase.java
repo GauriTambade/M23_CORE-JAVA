@@ -1,4 +1,4 @@
-package com.cg.decisionmaking;
+package com.tns.decisionmaking;
 
 import java.util.Scanner;
 

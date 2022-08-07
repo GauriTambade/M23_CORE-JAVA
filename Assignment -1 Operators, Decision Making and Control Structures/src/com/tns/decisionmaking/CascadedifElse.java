@@ -1,4 +1,4 @@
-package com.cg.decisionmaking;
+package com.tns.decisionmaking;
 
 public class CascadedifElse {
 
