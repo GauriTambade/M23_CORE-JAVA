@@ -8,7 +8,7 @@ class AndroidVersion
 }
 class Kitkat extends AndroidVersion
 {
-	void Print()
+	void print()
 	{
 		System.out.println("Kitkat");
 	}
@@ -31,7 +31,15 @@ public class HierarchicalInheritance {
 		k.print();
 		p.display();
 		p.print1();
+		k.display();
 				
 	}
 
 }
+
+/*o/p
+ * Kitkat
+Android-Version
+Pie
+Android-Version
+*/
