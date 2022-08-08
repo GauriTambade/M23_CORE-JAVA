@@ -8,7 +8,6 @@ public class Assignment2SumOfDigits
 	
 	static int sum(int num)
 	{
-
 		if(num/10==0)
 		return num;
 		else
@@ -50,5 +49,11 @@ o/p
 Enter a number: 
 1111111
 Sum of digits of a number= 7
+
+o/p
+Enter a number: 
+666667
+Sum of digits of a number= 37
+
 
  * */
