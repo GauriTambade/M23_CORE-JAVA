@@ -5,36 +5,50 @@ import java.util.Scanner;
 public class Assignment2SumOfDigits 
 {
 	
-
-	static int sum(int n)
+	
+	static int sum(int num)
 	{
-	
-		int s=n/10+n%10;
-		//int s=n/10;
-		//int t=s/10;
-		//int u=n%10;
-		if(n/10==0)
-			return s;
-		else return (sum(n));
-			
-	
 
-		
-		
-		
-	
-		
-		
+		if(num/10==0)
+		return num;
+		else
+		return num%10+sum(num/10);
+        
 	}
 
 	public static void main(String[] args) 
 	{
-
+		
 		Scanner x=new Scanner(System.in);
-		int n=x.nextInt();
-		System.out.println(sum(n));
+		System.out.println("Enter a number: ");
+		int num=x.nextInt();
+		System.out.println("Sum of digits of a number= "+sum(num));
 		x.close();
         
 	}
 
 }
+
+/*o/p
+ * 123
+6
+
+o/p
+111111
+6
+
+o/p
+1234
+Sum of digits of a number= 10
+
+o/p
+Enter a number: 
+123
+Sum of digits of a number= 6
+
+o/p
+Enter a number: 
+1111111
+Sum of digits of a number= 7
+
+ * */
