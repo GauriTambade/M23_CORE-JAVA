@@ -8,11 +8,14 @@ public class Assignment2SumOfDigits
 	
 	static int sum(int num)
 	{
-		if(num/10==0)
+		if(num/10==0)               // n/10 returns quotient
 		return num;
 		else
-		return num%10+sum(num/10);
-        
+		return num%10+sum(num/10);  // n%10 returns remainder
+		                            // if num =123
+		                            // 3+(12%10 + 12/10)
+		                            // 3+2+1 =6
+		                            //function calling in function itself
 	}
 
 	public static void main(String[] args) 
