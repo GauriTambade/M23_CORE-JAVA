@@ -2,6 +2,7 @@ package com.cg.demoOnSuper;
 
 public class Executor {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) 
 	{
 		Base2 b=new Base2(); //default constructor
