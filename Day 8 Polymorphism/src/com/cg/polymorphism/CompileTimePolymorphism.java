@@ -28,3 +28,8 @@ public class CompileTimePolymorphism {
 	}
 
 }
+
+
+/*o/p
+ * 25
+63*/
