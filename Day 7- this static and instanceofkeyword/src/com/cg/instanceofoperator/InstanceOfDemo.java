@@ -10,7 +10,7 @@ public class InstanceOfDemo {
 
 }
 
-/*o/p
+/*output
  * true
 */
  
