@@ -8,7 +8,16 @@ public class QueueEx {
 	public static void main(String[] args) {
 	Queue<Integer> q=new PriorityQueue<>();
 	q.add(11);
+	q.add(12);
 	System.out.println(q);
+	System.out.println(q.peek());
+	System.out.println(q.poll());
 	}
 
 }
+
+/*o/p 
+ * [11, 12]
+11
+11
+*/
