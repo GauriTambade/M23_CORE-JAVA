@@ -17,8 +17,7 @@ public class Executor {
 		em.setBody("about training and placement");
 		System.out.println(em.getFrom()+"\n"+em.getTo()+"\n"+ em.getSubject()+"\n"+em.getBody());
 		//create a sender to send this mail
-		Sender<
->obj1=new Sender<Email>();
+		Sender<Email>obj1=new Sender<Email>();
 		obj1.setMessage(em);
 		obj1.sendMessage();
 	}
